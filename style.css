@@ -57,5 +57,20 @@ li {
     align-items: center;
 }
 button {
-    border-radius: 45px;
+    border-radius: 40px;
 }
+@media (min-width: 576px) {
+    body {
+        font-size: 1.6em;
+    }
+ }
+ @media (max-width: 575.98px) {
+     body {
+         font-size: 1.5em;
+     }
+  }
+  @media (min-width: 960px) {
+    body {
+        font-size: 1.7em;
+    }
+ }
