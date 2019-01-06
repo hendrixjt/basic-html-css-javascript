@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+body {
+    background: #808284;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    margin: 30px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.media {
+   padding: auto;
+   text-align: center;
+   display: block;
+}
+img {
+    border-radius: 50px;
+}
+
+.header {
+  
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin:10px 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 75%;
+    margin: 15px;
+    text-align: left;
+}
+.repoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border-radius: 45px;
+}
