@@ -62,15 +62,18 @@ button {
 @media (min-width: 576px) {
     body {
         font-size: 1.6em;
+        color: #000;
     }
  }
  @media (max-width: 575.98px) {
      body {
-         font-size: 1.5em;
+         font-size: 1.3em;
+         /* color: aqua */
      }
   }
   @media (min-width: 960px) {
     body {
-        font-size: 1.7em;
+        font-size: 2em;
+        /* color: bisque */
     }
  }
