@@ -18,8 +18,11 @@
     gitRequest.open("GET", url, true);
     gitRequest.send();
   }
-  
-  function loadRepoCallback(gitRequest) {
+
+  const thingToDoWhenClicked = (evt) => alert('I was clicked by: ' + evt.srcElement.id);
+    document.getElementById('alertButton').onclick = thingToDoWhenClicked;
+ 
+    function loadRepoCallback(gitRequest) {
     var htmlUpdate = "";
     let gitRepo = JSON.parse(gitRequest.responseText);
     gitRepo.forEach(function(inRepo) {
